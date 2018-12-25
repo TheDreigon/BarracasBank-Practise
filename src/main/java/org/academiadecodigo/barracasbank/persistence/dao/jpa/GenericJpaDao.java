@@ -1,7 +1,7 @@
 package org.academiadecodigo.barracasbank.persistence.dao.jpa;
 
-import org.academiadecodigo.javabank.persistence.dao.Dao;
-import org.academiadecodigo.javabank.persistence.model.Model;
+import org.academiadecodigo.barracasbank.persistence.dao.Dao;
+import org.academiadecodigo.barracasbank.persistence.model.Model;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

@@ -1,7 +1,7 @@
 package org.academiadecodigo.barracasbank.persistence.dao.jpa;
 
-import org.academiadecodigo.javabank.persistence.dao.RecipientDao;
-import org.academiadecodigo.javabank.persistence.model.Recipient;
+import org.academiadecodigo.barracasbank.persistence.dao.RecipientDao;
+import org.academiadecodigo.barracasbank.persistence.model.Recipient;
 import org.springframework.stereotype.Repository;
 
 /**
