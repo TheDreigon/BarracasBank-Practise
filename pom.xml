@@ -2,11 +2,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.academiadecodigo.javabank</groupId>
-  <artifactId>javabank-step13-rest</artifactId>
+  <groupId>org.academiadecodigo.barracasbank</groupId>
+  <artifactId>barracasbank</artifactId>
   <version>0.0.1</version>
   <packaging>war</packaging>
-  <name>Java Bank Webapp</name>
+  <name>BarracasBank WebApp</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -151,7 +151,7 @@
 
   <build>
 
-    <finalName>Java Bank</finalName>
+    <finalName>BarracasBank</finalName>
 
     <plugins>
       <plugin>

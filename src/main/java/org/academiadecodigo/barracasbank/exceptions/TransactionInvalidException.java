@@ -1,6 +1,6 @@
 package org.academiadecodigo.barracasbank.exceptions;
 
-import org.academiadecodigo.javabank.errors.ErrorMessage;
+import org.academiadecodigo.barracasbank.errors.ErrorMessage;
 
 /**
  * Thrown to indicate that the transaction was not valid

@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Welcome to Barracas Bank!</h2>
+<h2>Welcome to BarracasBank!</h2>
 </body>
 </html>
