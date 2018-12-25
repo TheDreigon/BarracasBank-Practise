@@ -1,6 +1,6 @@
 package org.academiadecodigo.barracasbank.command;
 
-import org.academiadecodigo.javabank.persistence.model.Recipient;
+import org.academiadecodigo.barracasbank.persistence.model.Recipient;
 
 import javax.validation.constraints.*;
 

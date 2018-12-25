@@ -1,12 +1,12 @@
 package org.academiadecodigo.barracasbank.command;
 
-import org.academiadecodigo.javabank.persistence.model.account.Account;
+import org.academiadecodigo.barracasbank.persistence.model.account.Account;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 
-import static org.academiadecodigo.javabank.command.AccountDto.moneyRegex;
+import static org.academiadecodigo.barracasbank.command.AccountDto.moneyRegex;
 
 /**
  * The {@link Account} transactions data transfer object
