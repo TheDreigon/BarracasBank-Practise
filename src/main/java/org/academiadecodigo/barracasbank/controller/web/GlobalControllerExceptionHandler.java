@@ -1,6 +1,6 @@
 package org.academiadecodigo.barracasbank.controller.web;
 
-import org.academiadecodigo.barracasbank.exceptions.JavaBankException;
+import org.academiadecodigo.barracasbank.exceptions.BarracasBankException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.http.HttpStatus;
@@ -27,8 +27,8 @@ public class GlobalControllerExceptionHandler {
      * @return the model to render
      */
     @ResponseStatus(HttpStatus.BAD_REQUEST)
-    @ExceptionHandler(value = JavaBankException.class)
-    public ModelAndView handleClientErrors(HttpServletRequest req, JavaBankException ex) {
+    @ExceptionHandler(value = BarracasBankException.class)
+    public ModelAndView handleClientErrors(HttpServletRequest req, BarracasBankException ex) {
 
         logException(ex);
         return handleError(HttpStatus.BAD_REQUEST, req, ex);
@@ -65,7 +65,7 @@ public class GlobalControllerExceptionHandler {
 
     private void logException(Exception ex) {
 
-        String errorOrigin = ex instanceof JavaBankException ? "Client" : "Server";
+        String errorOrigin = ex instanceof BarracasBankException ? "Client" : "Server";
 
         String throwingClassName = ex.getStackTrace()[0].getClassName();
         String throwingMethodName = ex.getStackTrace()[0].getMethodName();

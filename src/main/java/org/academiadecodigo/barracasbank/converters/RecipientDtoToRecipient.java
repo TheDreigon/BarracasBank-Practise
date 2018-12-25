@@ -1,8 +1,8 @@
-package org.academiadecodigo.javabank.converters;
+package org.academiadecodigo.barracasbank.converters;
 
-import org.academiadecodigo.javabank.command.RecipientDto;
-import org.academiadecodigo.javabank.persistence.model.Recipient;
-import org.academiadecodigo.javabank.services.RecipientService;
+import org.academiadecodigo.barracasbank.command.RecipientDto;
+import org.academiadecodigo.barracasbank.persistence.model.Recipient;
+import org.academiadecodigo.barracasbank.services.RecipientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
