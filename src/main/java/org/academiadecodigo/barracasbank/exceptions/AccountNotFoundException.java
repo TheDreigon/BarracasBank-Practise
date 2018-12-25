@@ -5,10 +5,10 @@ import org.academiadecodigo.javabank.errors.ErrorMessage;
 /**
  * Thrown to indicate that the account was not found
  */
-public class AccountNotFoundException extends JavaBankException {
+public class AccountNotFoundException extends BarracasBankException {
 
     /**
-     * @see JavaBankException#JavaBankException(String)
+     * @see BarracasBankException#BarracasBankException(String)
      */
     public AccountNotFoundException() {
         super(ErrorMessage.ACCOUNT_NOT_FOUND);

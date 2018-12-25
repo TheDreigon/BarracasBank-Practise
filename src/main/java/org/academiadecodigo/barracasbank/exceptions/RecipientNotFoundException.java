@@ -5,10 +5,10 @@ import org.academiadecodigo.javabank.errors.ErrorMessage;
 /**
  * Thrown to indicate that the recipient was not found
  */
-public class RecipientNotFoundException extends JavaBankException {
+public class RecipientNotFoundException extends BarracasBankException {
 
     /**
-     * @see JavaBankException#JavaBankException(String)
+     * @see BarracasBankException#BarracasBankException(String)
      */
     public RecipientNotFoundException() {
         super(ErrorMessage.RECIPIENT_NOT_FOUND);

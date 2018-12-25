@@ -5,12 +5,12 @@ package org.academiadecodigo.barracasbank.exceptions;
  *
  * @see Exception
  */
-public class JavaBankException extends Exception {
+public class BarracasBankException extends Exception {
 
     /**
      * @see Exception#Exception(String)
      */
-    public JavaBankException(String message) {
+    public BarracasBankException(String message) {
         super(message);
     }
 }
