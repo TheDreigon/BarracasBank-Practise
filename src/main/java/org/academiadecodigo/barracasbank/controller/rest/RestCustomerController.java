@@ -25,7 +25,7 @@ import java.util.List;
  */
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
-@RequestMapping("/api/customer")
+@RequestMapping("/api/customers")
 public class RestCustomerController {
 
     private CustomerService customerService;

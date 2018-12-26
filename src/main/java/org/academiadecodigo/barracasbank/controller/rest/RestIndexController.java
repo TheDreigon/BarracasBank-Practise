@@ -22,7 +22,7 @@ public class RestIndexController {
     protected ApiVersion showVersion() {
 
         ApiVersion version = new ApiVersion();
-        version.setName("JavaBank API");
+        version.setName("BarracasBank API");
         version.setVersion("v0.1");
 
         return version;
